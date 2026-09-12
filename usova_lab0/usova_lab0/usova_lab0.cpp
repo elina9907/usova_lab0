@@ -8,7 +8,17 @@ int main()
 {   
     int x;
     cin >> x;
-    cout << 10/ x << '\n';
+    if (x == 0)
+    {
+        cout << "no 0\n";
+    }
+    else
+    {
+        cout << 10 / x << '\n';
+    }
+    
+    
+
     cout << "Hello World!\n";
 }
 
