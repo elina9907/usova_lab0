@@ -15,7 +15,6 @@ int main()
         cout << "6. Save\n";
         cout << "7. Download\n";
         cout << "0. Exit\n";
-        
         cin >> x;
 
         if (x == 1) {
